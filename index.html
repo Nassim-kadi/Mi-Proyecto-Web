@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+
+        <div class="menu-humbergesa">
+            ☰
+        </div>
+        <div class="contenedor-header-left">
+            <span >N</span>
+            <label>Nexus</label>
+            <label>Corp</label>
+        </div>
+        <div class="contenedor-header-right">
+            
+            
+            <input type="text" placeholder="🔍   search..." id="input-search">
+            <span>⌘K</span>
+            <span class="icon-header" id="icon-theme">🌙</span>
+            <span class="icon-header" id="Shortcuts">⌨️</span>
+            <span class="icon-header">🔔</span>
+            <span class="Char-Users-header">JD</span>
+        </div>
+    </header>
+    
+   
+
+
+    <main class="main">
+        <div class="main-left ">
+            <nav id="nav">
+                <div class="Main-Menu-cards Main-Cards">
+                    <label for="">Main Menu</label>
+
+                    <div class="Main-Menu-card Main-Card">
+                        <label for="">📊 </label>
+                        <span>   Dashboard</span>
+                        
+                    </div>
+
+                    <div class="Main-Menu-card Main-Card">
+                        <label for="">📋  </label>
+                        <span class="notification00"> Projects</span>
+                        <span class="Main-Menu-card-notification">4</span>
+                    </div>
+
+                    <div class="Main-Menu-card Main-Card">
+                        <label for="">✅ </label>
+                        <span class="notification00">  My Tasks</span>
+                        <span class="Main-Menu-card-notification">7</span>
+                    </div>
+
+                    <div class="Main-Menu-card Main-Card">
+                        <label for="">👥 </label>
+                        <span>  Team</span>
+                        
+                    </div>
+
+                    <div class="Main-Menu-card Main-Card">
+                        <label for="">📈 </label>
+                        <span> Analytics</span>
+                        
+                    </div>
+                
+                </div>
+
+                <div class="nav-tools Main-Cards" >
+                    <label for="">Tools</label>
+                    <div class="nav-tools-card Main-Card">
+                        <label for="">📅</label>
+                        <span>   Calendar</span>
+                    </div>
+                    <div class="nav-tools-card Main-Card" >
+                        <label for="">💬</label>
+                        <span>   Messages</span>
+                    </div>
+                    <div class="nav-tools-card Main-Card">
+                        <label for="">📁</label>
+                        <span>   Files</span>
+                    </div>
+                </div>
+
+
+                <div class="nav-account Main-Cards" >
+                    <label for="">ACCOUNT</label>
+                    <div class="nav-tools-card Main-Card">
+                        <label for="">⚙️ </label>
+                        <span>  Settings</span>
+                    </div>
+                    <div class="nav-tools-card Main-Card">
+                        <label for="">🚪 </label>
+                        <span>  Logout</span>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="main-right">
+            
+            <div class="ventana-Quick-Add">
+                <div class="ventana-Quick-Add-Task">
+                    <form action="#" class="form">
+                    <div class="parteArriba-Quick-Add">
+                        <h3>⚡ Quick Add Task</h3>
+                        <button class="boton-Quick-Add-leave">X</button>
+                    </div>
+                    <div class="parteCentro-Quick-Add">
+                        <div class="task-title-Quick">
+                            <span>Task Title</span>
+                            <input id="input-task-Quick-Add" type="text" required placeholder="add a new task...">
+                        </div>
+                        <div class="task-Quick-center   task-Priority-Quick">
+                            <span>Priority</span>
+                            <select name="Priority" class="Priority-Quick-Add" id="Option-Priority">
+                                <option value="High">High</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Low">Low</option>
+                            </select>
+                        </div>
+                        <div class="task-Quick-center  task-Tag-Quick">
+                            <span>Tag</span>
+                            <select name="Priority" class="Priority-Quick-Add" id="Option-Tag">
+                                <option value="Design">Design</option>
+                                <option value="Dev">Dev</option>
+                                <option value="QA">QA</option>
+                                <option value="Marketing">Marketing</option>
+                            </select>
+                        </div>
+                        <button type="submit" class=" boton-task-add-Quick-Add" >+ Add</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div class="ventana-keybord-Cshortcuts-help" style="display: none;">
+                <div class="ventana-keybord-Cshortcuts">
+                    <div class="ventana-keybord-Cshortcuts-title">
+                        <label for="">⌨️ Keyboard Shortcuts</label>
+                        <button class="boton-keybord-leave">X</button>
+                    </div>
+                    <div class="keybord-Cshortcuts">
+                        <div class="keybord-Cshortcut">
+                            <label class= "keybord-Cshortcut-tarea" for="">Open Search</label>
+                            <span class="keybord-Cshortcut-tecla">Ctrl</span>
+                            <span class="keybord-Cshortcut-tecla">K</span>
+                        </div>
+                        <div class="keybord-Cshortcut">
+                            <label class= "keybord-Cshortcut-tarea" for="">New Task</label>
+                            <span class="keybord-Cshortcut-tecla">Ctrl</span>
+                            <span class="keybord-Cshortcut-tecla">N</span>
+                        </div>
+                        <div class="keybord-Cshortcut">
+                            <label class= "keybord-Cshortcut-tarea" for="">Quick Add</label>
+                            <span class="keybord-Cshortcut-tecla">Ctrl</span>
+                            <span class="keybord-Cshortcut-tecla">Q</span>
+                        </div>
+                        <div class="keybord-Cshortcut">
+                            <label class= "keybord-Cshortcut-tarea" for="">Toggle Theme</label>
+                            <span class="keybord-Cshortcut-tecla">Ctrl</span>
+                            <span class="keybord-Cshortcut-tecla">D</span>
+                        </div>
+                        <div class="keybord-Cshortcut">
+                            <label class= "keybord-Cshortcut-tarea" for="">Show Shortcuts</label>
+                            <span class="keybord-Cshortcut-tecla">Ctrl</span>
+                            <span class="keybord-Cshortcut-tecla">/</span>
+                        </div>
+                        <div class="keybord-Cshortcut">
+                            <label class= "keybord-Cshortcut-tarea" for="">Close Modal</label>
+                            <span class="keybord-Cshortcut-tecla">Esc</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="contenedor-Titulo">
+                    <h1 id="bienvinido">Good morning, <span id="name-bienvinido">John</span> 👋</h1>
+                    <h3 id="Dia">Wednesday, 25 March 2026 · Here's what's happening today.</h3>
+                </div>
+                <div class="contenedor-botones">
+                    <span class="btn btn-1" id="bnt-Quick-Add">⚡ Quick add</span>
+                    <span class="btn btn-2">🎉 Demo test</span>
+                </div>    
+            </div>
+            
+                <div class="informacion-principal">
+                    <div class="Card-Principal Card-Principal-morada">
+                        <h3>Total Users</h3>
+                        <span class="icon-Cards">👤</span>
+                        <span class="text-Caja">24.819</span>
+                        <span class="porcentaje">↑ 12.4% this month</span>
+                    </div>
+                    <div class="Card-Principal Card-Principal-verde">
+                        <h3>REVENUE</h3>    
+                        <span class="icon-Cards">💸</span>
+                        <span class="text-Caja">$184.320</span>
+                        <span class="porcentaje">↑ 8.7% this month</span>
+                    </div>
+                    <div class="Card-Principal  Card-Principal-azul">
+                        <h3>ACTIVE PROJECTS</h3>
+                        <span class="icon-Cards">🚀</span>
+                        <span class="text-Caja">38</span>
+                        <span class="porcentaje">↓ 2 from last week</span>
+                    </div >
+                    <div class="Card-Principal Card-Principal-naranja">
+                        <h3>SATIFACTION</h3>
+                        <span class="icon-Cards">⭐</span>
+                        <span class="text-Caja">96%</span>
+                        <span class="porcentaje">↑ 3% this quarter</span>
+                    </div>
+                </div>
+                <div class="infotmation-second">
+                    <div class="lado-div-dentro-grid">
+                    <div class="Card-task">
+                        <nav class="nav-card">
+                            <ul>
+                                <li class="opcion-nav-card opcion-nav-card-active" id="card-tasks"><span>📋</span>tasks</li>
+                                <li class="opcion-nav-card" id="card-team"><span>👥</span> Team</li>
+                                <li class="opcion-nav-card" id="card-activity"><span>⚡</span> Activity</li>
+                                <li class="opcion-nav-card" id="card-contact"><span>📝</span> Contact</li>
+                            </ul>
+                        </nav>
+                        <div class="menu-tasks">
+                            <div class="add-task">
+                            
+                                <input id="input-task" type="text" placeholder="add a new task..." required>
+                                <button class="boton-task-add">+ Add</button>
+                            
+                            </div>
+                            <div class="see-option-task">
+                                <button  class=" btn-option option-all">All </button>
+                                <button  class="btn-option option-Active">Active</button>
+                                <button  class=" btn-option option-Done">Done</button>
+                            </div>
+                            <div class="tasks">
+                                <div class="task task-active">
+                                    <div class="task-izquirda">
+                                        <span class="simbolo-mover">⋮⋮</span>
+                                        <input type="checkbox">
+                                        <span class="text-task task-uncompleted">Meeting with team</span>
+                                    </div> 
+                                    <div class="task-derecha">
+                                        <span class="icon-task">🗑️</span>
+                                    </div>
+
+                                </div>
+                                <div class="task task-active">
+                                    <div class="task-izquirda">
+                                        <span class="simbolo-mover">⋮⋮</span>
+                                        <input type="checkbox">
+                                        <span class="text-task task-uncompleted">Meeting with team</span>
+                                    </div> 
+                                    <div class="task-derecha">
+                                    <span class="icon-task">🗑️</span>
+                                    </div>
+                                </div>
+                                <div class="task task-active">
+                                    <div class="task-izquirda">
+                                        <span class="simbolo-mover">⋮⋮</span>
+                                        <input type="checkbox">
+                                        <span class="text-task task-uncompleted">Meeting with team</span>
+                                    </div> 
+                                    <div class="task-derecha">
+                                    <span class="icon-task">🗑️</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-task">
+                                    <span class="text-footer-izquierda">1 task remaining</span>
+                                    <div class="text-footer-derecha">
+                                        <span class="text-footer-derecha-izquierda"> Ctrl+N</span>
+                                        <span class="text-footer-derecha-derecha">new task</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="menu-team">
+                            <input type="text" id="input-search" placeholder="Search team members...">
+                            <div class="team-people">
+                                <div class="card-person">
+                                    <span class="person-name-char " style="background-color: rgba(0, 4, 255, 0.587);">AM</span>
+                                    <span class="person-full-name ">Alice Martin</span>
+                                    <span class="person-workstation">Lead Designer</span>
+                                    <span class="person-status"></span>
+                                </div>
+                                <div class="card-person">
+                                    <span class="person-name-char" style="background-color: rgb(255, 162, 0);">BC</span>
+                                    <span class="person-full-name">Bob Chen</span>
+                                    <span class="person-workstation">Senior Dev</span>
+                                    <span class="person-status"></span>
+                                </div>
+                                <div class="card-person">
+                                    <span class="person-name-char" style="background-color: rgb(255, 68, 0);">CR</span>
+                                    <span class="person-full-name">Carlos Ruiz</span>
+                                    <span class="person-workstation">Product Manager</span>
+                                    <span class="person-status"></span>
+                                </div>
+                                <div class="card-person">
+                                    <span class="person-name-char" style="background-color: rgba(187, 0, 255, 0.446);">DK</span>
+                                    <span class="person-full-name">Diana Koval</span>
+                                    <span class="person-workstation">QA Engineer</span>
+                                    <span class="person-status"></span>
+                                </div>
+                                <div class="card-person">
+                                    <span class="person-name-char" style="background-color: rgba(0, 255, 187, 0.502);">EP</span>
+                                    <span class="person-full-name">Ethan Patel</span>
+                                    <span class="person-workstation">DevOps</span>
+                                    <span class="person-status"></span>
+                                </div>
+                                <div class="card-person">
+                                    <span class="person-name-char" style="background-color: rgba(32, 170, 5, 0.534);">FW</span>
+                                <span class="person-full-name">Fiona Walsh</span>
+                                    <span class="person-workstation">Frontend Dev</span>
+                                    <span class="person-status"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="menu-activity">
+
+                            <div class="activity-completed">
+                                <span class="icon-activity" style="background-color: rgba(0, 4, 255, 0.587);"></span>
+                                <span class="text-activity">
+                                    <b>Alice M.</b> merged a pull request in <b>Nexus Redesign</b>
+                                </span><br>
+                                <span class="time-activity">2 minutes ago</span>
+                            </div>
+
+                            <div class="activity-completed">
+                                <span class="icon-activity" style="background-color: rgba(0, 255, 89, 0.587);"></span>
+                                <span class="text-activity">
+                                    <b>Bob C.</b> completed task  <b>API auth refactor</b>
+                                </span><br>
+                                <span class="time-activity">18 minutes ago</span>
+                            </div>
+
+                            <div class="activity-completed">
+                                <span class="icon-activity" style="background-color: rgba(255, 0, 187, 0.587);"></span>
+                                <span class="text-activity">
+                                    <b>Carlos R.</b>commented on <b>Sprint 14 planning</b>
+                                </span><br>
+                                <span class="time-activity">1 hour ago</span>
+                            </div>
+
+                            <div class="activity-completed" >
+                                <span class="icon-activity" style="background-color: rgba(255, 0, 34, 0.587);"></span>
+                                <span class="text-activity">
+                                    <b>  Diana K.</b> raised a bug: <b>Login form validation</b>
+                                </span><br>
+                                <span class="time-activity">3 hours ago</span>
+                            </div>
+
+                            <div class="activity-completed">
+                                <span class="icon-activity" style="background-color: rgba(255, 162, 0, 0.691);"></span>
+                                <span class="text-activity">
+                                    <b>Fiona W.</b> deployed <b>v2.4.1 to staging</b>
+                                </span><br>
+                                <span class="time-activity">Yesterday</span>
+                            </div>
+
+                        </div>
+                        <form action="#">
+                            <div class="menu-contact">
+                                
+                                    <div class="box-menu-contact ">
+                                        <span>Full Name</span>
+                                        <input type="text" placeholder="Jane Doe">
+                                    </div>
+                                    <div class="box-menu-contact">
+                                        <span>Email Address</span>
+                                        <input type="email" placeholder="jane·nexus.io">
+                                    </div>
+                                    <div class="box-menu-contact">
+                                        <span>Password</span>
+                                        <input type="password" placeholder="Min 8 chars + 1 number">
+                                    </div>
+                                    <div class="box-menu-contact">
+                                        <span>Department</span>
+                                        <select name="Department" class="department-menu-contact" id="select-menu-contact">
+                                            <option value="Design">Select department…</option>
+                                            <option value="Dev">Engineering</option>
+                                            <option value="QA">Design</option>
+                                            <option value="Marketing">Operations</option>
+                                        </select>
+                                    </div>
+                                <div class="box-menu-contact" id="div-btn-submit-contact">
+                                        <button  type="submit"  class="   btn-submit-contact" >Submit Application →</button>
+                                </div>                      
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="Revenue">
+                        <div class="Revenue-title">
+                            <span>📊 Monthly Revenue Live</span>
+                            <span>Live</span>
+                        </div>
+                        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                        <canvas id="myChart" width="400" height="200"></canvas>
+                    </div>
+                    </div>
+                    <div class="lado-div-dentro-grid">
+                    <div class="stopwatch">
+                        <div class="stopwatch-focus-timer">
+                            <span> ⏱ Focus Timer</span>
+                            <span> Ready</span>
+                        </div>
+                        <div class="stopwatch-principal">
+                            <div class="stopwatch-div-time">
+                                <span class="stopwatch-time">00:00</span>
+                            </div>
+                            <div class="stopwatch-div-options">
+                                <span class="stopwatch-options">5m</span>
+                                <span class="stopwatch-options">15m</span>
+                                <span class="stopwatch-options">25m</span>
+                                <span class="stopwatch-options">60m</span>
+                            </div>
+                            <div class="stopwatch-div-controls">
+                                <span class="stopwatch-controls">▶ Start</span> 
+                                <span class="stopwatch-controls">⏸ Pause</span>
+                                <span class="stopwatch-controls">⏹ Reset</span>
+                            </div>
+                        </div>                
+                    </div>
+
+                    <div class="Sprint-Priorities">
+                        <div class="Sprint-Priorities-start">
+                            <span>🎯 Sprint Priorities</span>
+                            <span>Drag to reorder</span>
+                        </div>
+                        <div class="Sprint-Priorities-Sprints">
+                            <div class="Sprint">
+                                <span class="Sprint-Priority" ></span>
+                                <span class="Sprint-title">Implement auth system</span>
+                                <span class="Sprint-Tag">Dev</span>
+                            </div>
+                            <div class="Sprint">
+                                <span class="Sprint-Priority"></span>
+                                <span class="Sprint-title">Design onboarding flow</span>
+                                <span class="Sprint-Tag">Design</span>
+                            </div>
+                            <div class="Sprint">
+                                <span class="Sprint-Priority" style="background-color: var(--warning);"></span>
+                                <span class="Sprint-title">Write API documentation</span>
+                                <span class="Sprint-Tag">Dev</span>
+                            </div>
+                            <div class="Sprint">
+                                <span class="Sprint-Priority" style="background-color: var(--warning);"></span>
+                                <span class="Sprint-title">User testing sessions</span>
+                                <span class="Sprint-Tag">QA</span>
+                            </div>
+                            <div class="Sprint">
+                                <span class="Sprint-Priority" style="background-color: var(--success);"></span>
+                                <span class="Sprint-title">Social media campaign</span>
+                                <span class="Sprint-Tag">Marketing</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Project-Progress">
+                        <div class="Project-Progress-title">
+                            <span>📊 Project Progress</span>
+                            <span>Q1 2026</span>
+                        </div>
+                        <div class="Project-Progress-Cards">
+                            <div class="Project-Progress-Card">
+                                <label class="Project-Progress-Card-Title">Nexus Redesign <span>78%</span></label>
+                                <div class="Project-Progress-Card-Percentage">
+                                    <span class="Card-Percentage-Progress Card-Percentage-Progress1 "></span>
+                                </div>
+                            </div>
+                            <div class="Project-Progress-Card">
+                                <label class="Project-Progress-Card-Title">API Migration<span>55%</span></label>
+                                <div class="Project-Progress-Card-Percentage">
+                                    <span class="Card-Percentage-Progress Card-Percentage-Progress2"></span>
+                                </div>
+                            </div>
+                            <div class="Project-Progress-Card">
+                                <label class="Project-Progress-Card-Title">Mobile App v2<span>31%</span></label>
+                                <div class="Project-Progress-Card-Percentage">
+                                    <span class="Card-Percentage-Progress Card-Percentage-Progress3"></span>
+                                </div>
+                            </div>
+                            <div class="Project-Progress-Card">
+                                <label class="Project-Progress-Card-Title">Analytics Platform<span>90%</span></label>
+                                <div class="Project-Progress-Card-Percentage">
+                                    <span class="Card-Percentage-Progress Card-Percentage-Progress4" ></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="capa-fondo" id="capa-fondo"></div>
+            </div><div class="capa-fondo-max" id="capa-fondo-max"></div>
+        </div>
+    </main>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
