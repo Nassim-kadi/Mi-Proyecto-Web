@@ -9,8 +9,8 @@ btn_Quick_add_leave.addEventListener("click", (e) => {
   document.querySelector(".ventana-Quick-Add").style.display = "none";
 });
 
-const boton_task_add = document.querySelector(".boton-task-add");
-const input_task = document.querySelector("#input-task");
+let boton_task_add = document.querySelector(".boton-task-add");
+var input_task = document.querySelector("#input-task");
 
 boton_task_add.addEventListener("click", (e) => {
   const task = document.createElement("div");
@@ -415,7 +415,7 @@ window.addEventListener('keydown', (e) => {
       document.querySelector(".ventana-Quick-Add").style.display = "flex";
     }
     if(e.ctrlKey && e.key === 'k'){
-      document.querySelector("#input-search").focus();
+      document.querySelector("#input-search1").focus();
       
     }
     if(e.ctrlKey && e.key === 'd'){
